@@ -3,10 +3,16 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import os
 
 # import helper functions
 from keywords import gen_wordcloud
 from job_desc import get_jd
+
+
+# get current working directory
+cwd = os.getcwd()
+
 
 # initialising 
 new_title = []
@@ -30,8 +36,15 @@ while True:
 
 
 # number of pages to scrape from
-num_page = int(input('Please enter number of pages to scrape from (max 10): '))
+while True:
+    num_page = int(input('Please enter number of pages to scrape from (max 10): '))
 
+    if num_page > 10:
+        print('Please enter a number between 1 to 10.')
+
+    else:
+        break
+        
 
 # get job title, company name, location, time of post and the respective link
 for i in range(1, num_page + 1):
@@ -95,4 +108,4 @@ gen_wordcloud(job_list, 'Job_Desc', word)
 
 
 # save dataframe to a csv file
-job_list.to_csv('data_' + word + '_jobs.csv')
+job_list.to_csv(cwd + '\CSV_Files\data_' + word + '_jobs.csv')
