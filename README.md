@@ -31,6 +31,12 @@ You will be promted for 2 inputs:
 1. To specify on the role to look for (Data Analyst, Data Engineer or Data Scientist)
 2. Number of pages to scrape from (max is set at 10)
 
+### Output
+- a CSV file with the list of job postings
+- a wordcloud image based on the job description
+
+![sample](\Images\analyst_11)
+
 
 
 # License
