@@ -23,7 +23,8 @@ pip install wordcloud
 
 Clone the repo:
 ```
-git clone
+git clone https://github.com/Solihin-k/web_scraping.git
+```
 
 # Usage
 
