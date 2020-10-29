@@ -35,8 +35,9 @@ You will be promted for 2 inputs:
 - a CSV file with the list of job postings
 - a wordcloud image based on the job description
 
-![sample](\Images\analyst_11.png)
+![sample](/Images/analyst_11.png)
 
+For the above
 
 
 # License
