@@ -4,7 +4,10 @@ Web scrape data related jobs from [JobStreet](https://www.jobstreet.com.sg/).
 ![Logo](https://i.ytimg.com/vi/l2Sp3MYoccw/maxresdefault.jpg)
 
 # Description
-Job hunting
+Job hunting is one of the most tedious and exhausting things to do
+
+
+![job hunting](https://cdn01.vulcanpost.com/wp-uploads/2017/01/job-platforms-FI.png)
 
 # Installation
 
