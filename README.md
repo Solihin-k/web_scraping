@@ -2,7 +2,7 @@
 Web scrape data related jobs from [JobStreet](https://www.jobstreet.com.sg/).
 
 ![Logo](https://i.ytimg.com/vi/l2Sp3MYoccw/maxresdefault.jpg)
-<img src="Logo" width="100" height="100"/>
+<img src="https://i.ytimg.com/vi/l2Sp3MYoccw/maxresdefault.jpg" width="100" height="100"/>
 
 # Description
 Job hunting is one of the most tedious and exhausting things to do
