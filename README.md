@@ -46,4 +46,4 @@ The maximum number of words for the wordcloud is set to 50, but this too can be 
 
 # Acknowledgements
 
-Thanks to the team at Real Python for their [tutorial](https://realpython.com/beautiful-soup-web-scraper-python/).
+Thanks to the team at @realpython for their [tutorial](https://realpython.com/beautiful-soup-web-scraper-python/)! It contains detailed explanations on how BeautifulSoup works.
