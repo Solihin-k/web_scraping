@@ -35,11 +35,12 @@ You will be promted for 2 inputs:
 - a CSV file with the list of job postings
 - a wordcloud image based on the job description
 
+Job_Title | Company | Location | First_Posted
+------------ | ------------- | ------------ | -------------
+Data Analyst | D L Resources Pte Ltd | Singapore | 1d ago
+
 ![sample](/Images/analyst_11.png)
 
-For the above
-
-
-# License
+For the above position, the wordcloud recognizes keywords such as transformation, visualization and automating.
 
 # Acknowledgements
