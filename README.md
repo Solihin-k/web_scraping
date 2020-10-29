@@ -31,7 +31,7 @@ You will be promted for 2 inputs:
 1. To specify on the role to look for (Data Analyst, Data Engineer or Data Scientist)
 2. Number of pages to scrape from (max is set at 10)
 
-### Output
+## Output
 - a CSV file with the list of job postings
 - a wordcloud image based on the job description
 
@@ -41,6 +41,9 @@ Data Analyst | D L Resources Pte Ltd | Singapore | 1d ago
 
 ![sample](/Images/analyst_11.png)
 
-For the above position, the wordcloud recognizes keywords such as transformation, visualization and automating.
+For the above position, the wordcloud recognizes keywords such as transformation, visualization and automating. <br>
+The maximum number of words for the wordcloud is set to 50, but this too can be easily customised to suit your preference.
 
 # Acknowledgements
+
+Thanks to the team at Real Python for their [tutorial](https://realpython.com/beautiful-soup-web-scraper-python/).
