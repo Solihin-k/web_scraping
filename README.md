@@ -1,7 +1,7 @@
 # Web Scraper for Job Search
 Web scrape data related jobs from [JobStreet](https://www.jobstreet.com.sg/), one of the go-to job portals in Singapore.
 
-<img src="https://i.ytimg.com/vi/l2Sp3MYoccw/maxresdefault.jpg" width="600" height="300"/>
+<img src="https://i.ytimg.com/vi/l2Sp3MYoccw/maxresdefault.jpg" width="500" height="200"/>
 
 # Description
 Job hunting is one of the most tedious and exhausting things to do. It involves more than searching for open positions and sending your resume to employers. You also need to make sure you’re a good fit for the job, can catch the hiring manager’s attention and are well-prepared to answer interview questions.
@@ -35,9 +35,9 @@ You will be promted for 2 inputs:
 - a CSV file with the list of job postings
 - a wordcloud image based on the job description
 
-Job_Title | Company | Location | First_Posted
------------- | ------------- | ------------ | -------------
-Data Analyst | D L Resources Pte Ltd | Singapore | 1d ago
+Job_Title | Company | Location | First_Posted | Link | Job_Desc
+------------ | ------------- | ------------ | ------------- | ------------- | -------------
+Data Analyst | D L Resources Pte Ltd | Singapore | 1d ago | some link | some job description
 
 ![sample](/Images/analyst_11.png)
 
@@ -46,4 +46,4 @@ The maximum number of words for the wordcloud is set to 50, but this too can be 
 
 # Acknowledgements
 
-Thanks to the team at @realpython for their [tutorial](https://realpython.com/beautiful-soup-web-scraper-python/)! It contains detailed explanations on how BeautifulSoup works.
+Thanks to the team at @realpython for their [tutorial](https://realpython.com/beautiful-soup-web-scraper-python/)! It contains detailed explanations on BeautifulSoup that helped me get started on this project..
